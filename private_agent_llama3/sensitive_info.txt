@@ -1,0 +1,23 @@
+In this paper, conditional denoising diffusion prob-
+abilistic models (DDPMs) are proposed to enhance the data
+transmission and reconstruction over wireless channels. The
+underlying mechanism of DDPM is to decompose the data gen-
+eration process over the so-called "denoising" steps. Inspired by
+this, the key idea is to leverage the generative prior of diffusion
+models in learning a "noisy-to-clean" transformation of the
+information signal to help enhance data reconstruction. The pro-
+posed scheme could be beneficial for communication scenarios in
+which a prior knowledge of the information content is available,
+e.g., in multimedia transmission. Hence, instead of employing
+complicated channel codes that reduce the information rate,
+one can exploit diffusion priors for reliable data reconstruction,
+especially under extreme channel conditions due to low signal-to-
+noise ratio (SNR), or hardware-impaired communications. The
+proposed DDPM-assisted receiver is tailored for the scenario
+of wireless image transmission using MNIST dataset. Our
+numerical results highlight the reconstruction performance of
+our scheme compared to the conventional digital communication,
+as well as the deep neural network (DNN)-based benchmark.
+It is also shown that more than 10 dB improvement in the
+reconstruction could be achieved in low SNR regimes, without
+the need to reduce the information rate for error correction. 
